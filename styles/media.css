@@ -1,0 +1,195 @@
+@media screen and (width <=450px) {
+  .portfolio__filter {
+    margin-inline: 5px;
+    font-size: 12px;
+  }
+
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (width <=650px) {
+  .about__profile__outter {
+    width: 100%;
+  }
+}
+
+@media screen and (width <=750px) {
+  .about__profile__outter {
+    border: none;
+  }
+
+  .about__profile__inner {
+    transform: none;
+  }
+}
+
+@media screen and (width <=1292px) {
+  .about__profile__outter {
+    width: 350px;
+  }
+
+  .about__summary {
+    width: 550px;
+  }
+}
+
+@media screen and (width <=1200px) {
+  .about__profile__outter {
+    border: none;
+    margin-left: 10px;
+  }
+
+  .about__profile__inner {
+    transform: none;
+  }
+
+  .about__summary {
+    width: 500px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (width <=1145px) {
+  .testimonial__card {
+    width: 80%;
+  }
+
+  .testimonial__card__image {
+    display: block;
+    margin: auto;
+  }
+
+  .testimonial__card-body {
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (width<=1100px) {
+  .about {
+    padding-block: 60px;
+  }
+
+  .services__item,
+  .portfolio__item,
+  .informations__item {
+    width: calc(100% / 2);
+  }
+
+  .about__profile__outter {
+    display: block;
+    margin: auto;
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .about__summary {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    max-width: 420px;
+  }
+
+  .about__summary__info li {
+    display: block;
+    width: 100%;
+  }
+
+  .about__summary__btns .btn {
+    padding: 12px;
+  }
+
+  .about__summary__btns .btn:first-of-type {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (width<=800px) {
+  .blog__card {
+    width: 100%;
+  }
+
+  .contact__form__email,
+  .contact__form__name {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact__form__name {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (width <=550px) {
+
+  .services__item,
+  .portfolio__item,
+  .informations__item,
+  .testimonial__card {
+    width: 100%;
+  }
+}
+
+@media screen and (width<=768px) {
+  .header__nav {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    background-color: #333;
+    height: 0;
+  }
+
+  .header__nav__item {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding: 12px;
+  }
+
+  .hero__article h3 {
+    font-size: 22px;
+  }
+
+  .hero__article h1 {
+    font-size: 38px;
+  }
+
+  .hero__article h4 {
+    font-size: 18px;
+    font-family: "SSP bold";
+  }
+
+  .hero__article__words {
+    height: 24px;
+    max-width: 85px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .header__toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
